@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+
+body {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+nav{
+    font-size: 2em;
+}
+.navbar-brand{
+    font-size: 1.5em;
+}
+img{
+    width: 50%;
+}
+p{
+    font-size: 2em;
+}
+.skill{
+    background-color: teal;
+    color: white;
+    overflow: hidden;
+}
+.skil{
+    position: relative;
+}
+.skil::before{
+    position: absolute;
+    content: "_______";
+    top: 18%;
+    left: 47%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hi{
+    margin-left: 5em !important;
+}
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+footer h2{
+    color: white;
+}
+footer a i {
+    font-size: 2em;
+}
+ol{
+    font-size: 1.5em;
+}
+.hist{
+    background-color: aqua;
+    overflow: hidden;
+}
+.tran{
+    background-color: coral;
+    overflow: hidden;
+    color: white;
+}
